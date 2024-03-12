@@ -170,6 +170,8 @@ Given that the margin is sufficient, there may be no immediate need to expand th
   
 Based on our comprehensive analysis of the available data, notable distinctions emerge between the resort hotel and the city hotel. While the resort hotel demonstrates a higher proportion of guests utilizing parking facilities on average, the city hotel exhibits a more sustained and elevated level of revenue generation.
 
-Moreover, a discernible trend is observed in the increasing frequency of stays across both hotel types, indicative of growing demand within the hospitality sector. Furthermore, it's noteworthy that the city hotel showcases superior performance during winter months compared to its resort counterpart, whereas the latter experiences heightened activity and revenue during the summer season. These nuanced observations underscore the dynamic nature of each hotel's performance and highlight the necessity for tailored strategies to maximize revenue potential throughout the year.
+Moreover, a discernible trend is observed in the increasing frequency of stays across both hotel types, indicative of growing demand within the hospitality sector. Furthermore, it's noteworthy that the city hotel showcases superior performance during winter months compared to its resort counterpart, whereas the latter experiences heightened activity and revenue during the summer season. 
+
+These nuanced observations underscore the dynamic nature of each hotel's performance and highlight the necessity for tailored strategies to maximize revenue potential throughout the year.
 
 <br/><br/>
