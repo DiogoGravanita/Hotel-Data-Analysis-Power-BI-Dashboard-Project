@@ -85,7 +85,7 @@ WHERE required_car_parking_spaces > 0;
 
 ### Data transformation and visualization:
 
-####Power BI Setup:
+#### Power BI Setup:
 
 Opened Power BI, connected it to the SQL Server, and uploaded the tables. The following SQL prompt was used to obtain the table we will work on:
 
@@ -104,7 +104,7 @@ left join dbo.meal_cost
 on meal_cost.meal = hotels.meal
 ```
 
-####Data Transformation:
+#### Data Transformation:
 
 After connecting to the SQL database, the data was transformed in Power BI to add a column called revenue, which takes into account the discounts due to market segments:
 
@@ -115,12 +115,13 @@ revenue calculation:
 ```
 
 
-####Visualizations:
+#### Visualizations:
 
 1. Revenue Trends:
 
  - A line graph representing revenue throughout the years was created, highlighting the overall revenue trend.
  - Drop-downs were added to allow users to select a specific hotel's revenue and the country of origin of the customers.
+ - A bar slicer was incorporated to enable users to select a specific time period for revenue analysis.
 
 2. Key Metrics Overview:
 
@@ -136,5 +137,39 @@ revenue calculation:
  - A matrix table was generated, including total revenue, total required parking spaces, and the percentage of people parking over the years.
  - Drop-downs were incorporated to facilitate evaluation of parking space requirements for each hotel, aiding in decision-making regarding parking lot expansion.
 
+<br/><br/>
+
+These visualizations provide comprehensive insights into revenue trends, key metrics, revenue distribution, and parking space utilization over multiple years. They empower stakeholders to make informed decisions regarding parking lot expansion and overall hotel management strategies.
+
+<br/><br/>
+
+#### Dashboard image:
+
+
+![Dashboard](https://github.com/DiogoGravanita/Hotel-Data-Analysis-SQL-Project/assets/163042130/026e34b3-cafe-442f-815f-30e26a1efa34)
+
+<br/><br/>
+<br/><br/>
+## Results/findings
+<br/><br/>
+### Is the hotel revenue growing by year?
+
+
+Based on our assessment, the hotel demonstrates a promising upward trajectory in revenue growth over recent years. While a more comprehensive analysis spanning additional years would provide deeper insights, preliminary observations indicate a consistent positive trend in total revenue.
+
+Moreover, it's important to acknowledge the seasonal fluctuations in hotel performance, notably with stronger performance typically observed during summer months, particularly from July to September. However, it's evident that the COVID-19 pandemic has adversely affected the hotel's performance in 2020, resulting in a notable deviation from anticipated or projected figures.
+<br/><br/>
+### Should the parking lot be increased in size?
+
+Based on the available data, it appears that the average utilization of parking spaces has been declining over the years, with a notably low percentage of guests opting to bring their vehicles to the hotel for parking. Since we lack information regarding the total capacity of each parking lot, it is up to management to acess if there is currently a sufficient margin of available spaces even during peak hours. 
+
+Given that the margin is sufficient, there may be no immediate need to expand their size. However, considering the hotel's significant growth in 2019 and the anticipation of a resurgence post-COVID restrictions, diligent monitoring of parking lot capacity is advisable.
+<br/><br/>
+### What trends can be seen in the data?
+
+  
+Based on our comprehensive analysis of the available data, notable distinctions emerge between the resort hotel and the city hotel. While the resort hotel demonstrates a higher proportion of guests utilizing parking facilities on average, the city hotel exhibits a more sustained and elevated level of revenue generation.
+
+Moreover, a discernible trend is observed in the increasing frequency of stays across both hotel types, indicative of growing demand within the hospitality sector. Furthermore, it's noteworthy that the city hotel showcases superior performance during winter months compared to its resort counterpart, whereas the latter experiences heightened activity and revenue during the summer season. These nuanced observations underscore the dynamic nature of each hotel's performance and highlight the necessity for tailored strategies to maximize revenue potential throughout the year.
 
 <br/><br/>
