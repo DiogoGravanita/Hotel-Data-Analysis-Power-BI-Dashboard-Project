@@ -1,4 +1,4 @@
-# Hotel- Data Analysis SQL Project
+# Hotel- Data Analysis Dashboard PowerBI Project
 
 ## Objective:
 
